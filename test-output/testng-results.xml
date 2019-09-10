@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDDTestSuite" duration-ms="56772" started-at="2019-09-10T07:14:03Z" finished-at="2019-09-10T07:14:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38ae61]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FreeCRMTest" duration-ms="56772" started-at="2019-09-10T07:14:03Z" finished-at="2019-09-10T07:14:59Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@38ae61]" name="setUpClass" is-config="true" duration-ms="312" started-at="2019-09-10T07:14:03Z" finished-at="2019-09-10T07:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38ae61]" name="feature" duration-ms="56296" started-at="2019-09-10T07:14:03Z" description="Runs cucumber feature" data-provider="features" finished-at="2019-09-10T07:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search in my store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@38ae61]" name="tearDownClass" is-config="true" duration-ms="61" started-at="2019-09-10T07:14:59Z" finished-at="2019-09-10T07:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- FreeCRMTest -->
+  </suite> <!-- BDDTestSuite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="71.020917">
+<testcase classname="Search in my store" name="Search in my store home" time="22.453996">
+<system-out><![CDATA[Given user is on my store home page and validates page title................passed
+Then user enters "Casual Dresses" and clicks on search......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in my store" name="Search in my store home 2" time="15.553132">
+<system-out><![CDATA[Given user is on my store home page and validates page title................passed
+Then user enters "Shirts" and clicks on search..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in my store" name="View contact us page" time="14.262181">
+<system-out><![CDATA[Given user clicks on contact us link in my store home page..................passed
+Then customer service page is displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in my store" name="View sign-in page" time="18.751608">
+<system-out><![CDATA[Given user clicks on sign-in link in my store home page.....................passed
+Then authentication page is displayed.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
