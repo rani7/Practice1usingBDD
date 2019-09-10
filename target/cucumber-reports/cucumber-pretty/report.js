@@ -61,11 +61,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 423588,
+  "duration": 391554,
   "status": "passed"
 });
 formatter.before({
-  "duration": 12451791229,
+  "duration": 13577886353,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_my_store_home_page_and_validates_page_title()"
 });
 formatter.result({
-  "duration": 204142577,
+  "duration": 147803844,
   "status": "passed"
 });
 formatter.match({
@@ -112,23 +112,23 @@ formatter.match({
   "location": "SearchStepDefinition.user_enters_search_item_and_clicks_on_search(String)"
 });
 formatter.result({
-  "duration": 1929257415,
+  "duration": 4580381540,
   "status": "passed"
 });
 formatter.after({
-  "duration": 702343106,
+  "duration": 755492490,
   "status": "passed"
 });
 formatter.after({
-  "duration": 51937,
+  "duration": 97344,
   "status": "passed"
 });
 formatter.before({
-  "duration": 354545,
+  "duration": 482678,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10969218353,
+  "duration": 14517782291,
   "status": "passed"
 });
 formatter.scenario({
@@ -162,7 +162,7 @@ formatter.match({
   "location": "SearchStepDefinition.user_is_on_my_store_home_page_and_validates_page_title()"
 });
 formatter.result({
-  "duration": 12028712,
+  "duration": 8716517,
   "status": "passed"
 });
 formatter.match({
@@ -175,23 +175,23 @@ formatter.match({
   "location": "SearchStepDefinition.user_enters_search_item_and_clicks_on_search(String)"
 });
 formatter.result({
-  "duration": 2598546366,
+  "duration": 2473603202,
   "status": "passed"
 });
 formatter.after({
-  "duration": 701789519,
+  "duration": 699060145,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72464,
+  "duration": 37009,
   "status": "passed"
 });
 formatter.before({
-  "duration": 607702,
+  "duration": 263109,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11242165958,
+  "duration": 11952966514,
   "status": "passed"
 });
 formatter.scenario({
@@ -222,26 +222,26 @@ formatter.match({
   "location": "SearchStepDefinition.user_clicks_on_contact_us_link_in_my_store_home_page()"
 });
 formatter.result({
-  "duration": 1660368415,
+  "duration": 1635150635,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.customer_service_page_is_displayed()"
 });
 formatter.result({
-  "duration": 10729958,
+  "duration": 6427525,
   "status": "passed"
 });
 formatter.after({
-  "duration": 725480580,
+  "duration": 770315576,
   "status": "passed"
 });
 formatter.after({
-  "duration": 195000,
+  "duration": 195932,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9907073792,
+  "duration": 10689323535,
   "status": "passed"
 });
 formatter.scenario({
@@ -272,18 +272,18 @@ formatter.match({
   "location": "SearchStepDefinition.user_clicks_on_sign_in_link_in_my_store_home_page()"
 });
 formatter.result({
-  "duration": 2365578359,
+  "duration": 2345314565,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.authentication_page_is_displayed()"
 });
 formatter.result({
-  "duration": 15598419,
+  "duration": 11326464,
   "status": "passed"
 });
 formatter.after({
-  "duration": 732577697,
+  "duration": 778109343,
   "status": "passed"
 });
 });

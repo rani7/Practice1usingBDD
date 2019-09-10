@@ -3,7 +3,7 @@
 <suite name="PracticeBDDSuite">
     <test name="PracticeBDD">
         <classes>
-          <class name="test.runner.TestRunner" />
+          <class name="runner.TestRunner" />
         </classes>
     </test>   
  </suite>
