@@ -1,4 +1,4 @@
-package runner;
+package test.runner;
 
 import org.junit.runner.RunWith;
 import org.testng.annotations.AfterClass;
