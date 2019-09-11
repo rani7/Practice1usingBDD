@@ -145,6 +145,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PracticeBDDSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extentReportListener.ExtentReportLS&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;PracticeBDD&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;runner.TestRunner&quot;/&gt;
@@ -199,7 +202,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 64972);
+data.setCell(0, 3, 76519);
 window.suiteTableData['PracticeBDDSuite']= { tableData: data, tableDiv: 'times-div-PracticeBDDSuite'}
 return data;
 }
@@ -237,11 +240,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(Search in my store)</span>
-                <span class="method-start">343 ms</span>
+                <span class="method-start">503 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">65317 ms</span>
+                <span class="method-start">77025 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
