@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 400882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.beforeSmokeTest1Scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19780396590,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_opens_the_browser_and_enters_url()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search in my store home",
+        "description": "",
+        "id": "search-in-my-store;search-in-my-store-home;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 758720039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_exits_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.afterSmokeTest1Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 456734911,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on my store home page and validates page title",
+            "match": {
+              "location": "SearchStepDefinition.user_is_on_my_store_home_page_and_validates_page_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4194310523,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"Casual Dresses\" and clicks on search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Casual Dresses",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchStepDefinition.user_enters_search_item_and_clicks_on_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 468680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.beforeSmokeTest1Scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12762819360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_opens_the_browser_and_enters_url()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search in my store home",
+        "description": "",
+        "id": "search-in-my-store;search-in-my-store-home;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 767454228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_exits_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 59401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.afterSmokeTest1Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10899077,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on my store home page and validates page title",
+            "match": {
+              "location": "SearchStepDefinition.user_is_on_my_store_home_page_and_validates_page_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2841540581,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"Shirts\" and clicks on search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shirts",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchStepDefinition.user_enters_search_item_and_clicks_on_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 485163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.beforeSmokeTest2Scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11833000146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_opens_the_browser_and_enters_url()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "View contact us page",
+        "description": "",
+        "id": "search-in-my-store;view-contact-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 820203644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_exits_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 174162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.afterSmokeTest2Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1794504589,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on contact us link in my store home page",
+            "match": {
+              "location": "SearchStepDefinition.user_clicks_on_contact_us_link_in_my_store_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9040527,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "customer service page is displayed",
+            "match": {
+              "location": "SearchStepDefinition.customer_service_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@SmokeTest2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12292818335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_opens_the_browser_and_enters_url()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "View sign-in page",
+        "description": "",
+        "id": "search-in-my-store;view-sign-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 743536905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.user_exits_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2761018657,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on sign-in link in my store home page",
+            "match": {
+              "location": "SearchStepDefinition.user_clicks_on_sign_in_link_in_my_store_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21412821,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "authentication page is displayed",
+            "match": {
+              "location": "SearchStepDefinition.authentication_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search in my store",
+    "description": "",
+    "id": "search-in-my-store",
+    "keyword": "Feature",
+    "uri": "C:/Users/Ranita/workspace/Practice1usingBDD/src/main/java/feature/search.feature"
+  }
+]

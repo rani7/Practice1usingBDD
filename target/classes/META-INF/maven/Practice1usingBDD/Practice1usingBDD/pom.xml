@@ -34,22 +34,8 @@
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
-           <!--<scope>test</scope>-->
- 		</dependency>
- 
-        <dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-jvm</artifactId>
-			<version>1.2.5</version>
-			<type>pom</type>
-		</dependency>
-		
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>1.2.5</version>
-			<scope>test</scope>
-		</dependency>
+<!-- 			<scope>test</scope>
+ -->		</dependency>
  
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -70,13 +56,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-		<dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>4.11</version>
-          <scope>test</scope>
-       </dependency>
 		
 		<dependency>
 			<groupId>net.masterthought</groupId>
@@ -108,7 +87,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>cucumber_testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -124,7 +103,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>MyProjectName</projectName>  <!-- Replace with project name -->
+							<projectName>Practice1usingBDD</projectName>  <!-- Replace with project name -->
 							<outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
 							<cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
 							<buildNumber>1</buildNumber>
